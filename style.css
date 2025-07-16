@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Osvald", sans-serif;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: #1131be;
+}
+
+
+.top-header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header .logotipo img{
+    max-width: 200px;
+
+}
+
+.top-header .btn-social button{
+width: 50px;
+height: 50px;
+font-size: 20px;
+border-radius: 50%;
+background-color: yellow;
+border: 2px solid #000;
+cursor: pointer;
+}
+.bottom-header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.titulo{
+    color: #fff; /* Cor do Título da Escola*/
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-header nav ul a{
+    color: #fff;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    transition: .2s;
+}
+
+.bottom-header nav ul a:hover{
+    background-color: yellow;
+    color: #424147;
+    box-shadow: inset 0 0 8px #000;
+}
+
+.drop-hover{
+    position: relative;
+}
+
+.drop-hover .droop{
+    position: absolute;
+background-color: #2e11be;
+width: 100%;
+height: 0;
+overflow: hidden;
+transition: .5s;
+}
+
+.drop-hover .droop a{
+    padding: 20px;
+
+}
+/*É dessa forma que inseri comentarios*/
+.drop-hover:hover .droop{
+    height: 230px;
+}
+/* Criando o rodapé */
+.rodape{
+    color: #fff;
+   margin-top: 575px; /* move o texto para parte inferior da tela */
+   display: flex;
+   justify-content: center;/* Centraliza o texto */
+   /*background-color: yellow;
+   padding-top: 28px;  /* Altura ou espssura do fundo do rodapé */
+   padding-top: 28px;*/
+   }
+.rod{
+    color: #fff;
+    font-size: 80%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    }
+    .rod1{
+        color: #fff;
+        font-size: 80%;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .rod2{
+        color: #fff;
+        font-size: 80%;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .botao1{ /* Criando o botão para o e-mail */
+      background: rgb(127, 168, 255); 
+       color: #000;
+       padding: 2px;
+       border: 2px solid #b2be11;
+       border-radius: 10px;
+    }
+    .botao1:hover{ /* Criando efeito no botão do e-mail */
+      background: rgb(127, 204, 255); 
+       padding: 4px;
+       border: 2px solid #50be11;
+    }
